@@ -134,3 +134,9 @@ result = mul(num1, num2)
 print(f"product = {num1} * {num2} = {result}")
 result = div(num1, num2)
 print(f"quotient = {num1} / {num2} = {result}")
+
+def bio(name, age):
+    print(f"hey, i\'m {name.title()} and i\'m {age} years old")
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+bio(name, age)
