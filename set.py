@@ -1,0 +1,33 @@
+num = {1, 2, 3, 4, 4, 5, 5, 6}
+fruit = ["apple", "banana", "grapes"]
+fruit_busket = set(fruit)
+print(fruit_busket)
+vaggies = set()
+print(vaggies)
+print(num)
+num.add(10)
+print(num)
+num.remove(6)
+print(num)
+vaggies.add("pumpkin")
+print(vaggies)
+num.remove(4)
+print(num)
+num.discard(11)
+print(num)
+vaggies.clear()
+print(vaggies)
+num.pop()
+print(num)
+print("banana" in fruit)
+print("pumpkin" in vaggies)
+print("watermelon" not in fruit)
+num_1 = {1, 2, 3, 4, 5}
+num_2 = {6, 7, 8, 9, 0}
+num_3 = {3, 4, 5, 9}
+all_num = num_1.union(num_2)
+print(all_num)
+common_num = num_1.intersection(num_3)
+print(common_num)
+different_num = num_1.difference(num_3)
+print(different_num)
