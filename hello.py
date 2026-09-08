@@ -42,3 +42,6 @@ def hellos(a):
 name = input("what is your name? ")
 hellos(name)
 
+if __name__ == "__main__":
+    name = ("what is your name? ")
+    hellos(name)

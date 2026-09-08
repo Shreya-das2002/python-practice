@@ -17,7 +17,6 @@ length_series = (int(input("Enter The length of this series: ")))
 def fibonacci(n):
     a = 0
     b = 1
-    i = 0
     series = [a, b]
     for i in range(n - 2):
         c = series[-1] + series[-2]
