@@ -197,7 +197,7 @@ def main():
                     print(f"Roll_no: {roll}, Name: {info['Name']}, Age: {info['Age']}, Grade: {info['Grade']}")
                     
         elif choice == "3":
-            print("Your data successfully saved") # FIXED: Capital 'P' to lowercase 'p'
+            print("Your data successfully saved") 
             break
         else:
             print("Invalid choice")
