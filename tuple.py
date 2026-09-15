@@ -4,5 +4,3 @@ x, *y = (5, 4, 9)
 print(y, x)
 print(tuple(zip(num, num2)))
 print(tuple(enumerate(num2)))
-
-
