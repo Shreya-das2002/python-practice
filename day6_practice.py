@@ -193,7 +193,6 @@ def main():
                 print("No record found")
             else:
                 for roll, info in student.items():
-                    # FIXED: Using the loop's 'roll' and 'info' dictionary keys
                     print(f"Roll_no: {roll}, Name: {info['Name']}, Age: {info['Age']}, Grade: {info['Grade']}")
                     
         elif choice == "3":
